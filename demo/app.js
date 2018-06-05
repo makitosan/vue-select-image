@@ -79,6 +79,13 @@ export default {
     onSelectMultipleImage: function (data) {
       console.log('fire event onSelectMultipleImage: ', data)
       this.imageMultipleSelected = data
+    },
+    addImage: function() {
+      this.dataImages.push({
+        id: '' + this.dataImages.length,
+        src: 'http://placekitten.com/200/200',
+        alt: 'hoge'
+      });
     }
   }
 }

@@ -88,6 +88,14 @@ export default {
       multipleSelected: []
     }
   },
+  watch: {
+    dataImages: function(newVal){
+      // **TEMPORARY WORKAROUND**
+      // should be changed during initialization
+      // so add all images to selected array
+      this.multipleSelected = newVal;
+    }
+  },
   computed: {
     dataImagesLocal: function () {
       return this.dataImages || []

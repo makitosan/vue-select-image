@@ -60,6 +60,9 @@
             </span>
           </h5>
         </div>
+        <div>
+          <button v-on:click="addImage">ADD</button>
+        </div>
       </div>
 
       <div class="grid__row content centered">
