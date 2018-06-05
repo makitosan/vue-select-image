@@ -1,27 +1,16 @@
-# :white_check_mark: Vue Select Image
+# Vue Select Image
 
-> Vue 2.x component for selecting image from list
-
-[![License](https://img.shields.io/github/license/mazipan/vue-select-image.svg?maxAge=3600)](https://github.com/mazipan/vue-select-image) [![version](https://img.shields.io/npm/v/vue-select-image.svg)](https://www.npmjs.com/package/vue-select-image)
-[![downloads](https://img.shields.io/npm/dt/vue-select-image.svg)](https://www.npmjs.com/package/vue-select-image) [![Travis](https://img.shields.io/travis/mazipan/vue-select-image.svg)](https://travis-ci.org/mazipan/vue-select-image)
-[![codecov](https://codecov.io/gh/mazipan/vue-select-image/branch/master/graph/badge.svg)](https://codecov.io/gh/mazipan/vue-select-image)
-
-## Demo
-
-[https://mazipan.github.io/vue-select-image/](https://mazipan.github.io/vue-select-image/)
+Originally developed by https://github.com/mazipan/vue-select-image.
+This version adds a couple of new features.
 
 ## Installation
 
 ```bash
-# Yarn
-yarn add vue-select-image
-
 # NPM
-npm i vue-select-image --save
+npm i makitosan/vue-select-image --save
 ```
 
 ## How to use
-
 ### Import
 
 ```javascript
@@ -35,7 +24,6 @@ require('vue-select-image/dist/vue-select-image.css')
 ```javascript
 components: { VueSelectImage }
 ```
-
 
 ### Register as global component
 
@@ -118,4 +106,4 @@ If you'd like to contribute, head to the [contributing guidelines](/CONTRIBUTING
 
 **Hope will usefull for you all.**
 
-Copyright © 2017 Built with ❤️ by Irfan Maulana
+Copyright © 2018 makitosan
