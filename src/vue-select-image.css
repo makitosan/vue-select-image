@@ -52,6 +52,9 @@
   line-height: 3;
 }
 
+.vue-select-image__selected-badge{
+  position: absolute;
+}
 @media only screen and (min-width: 1200px) {
   .vue-select-image__item {
     margin-left: 30px;

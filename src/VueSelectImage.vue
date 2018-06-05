@@ -32,6 +32,8 @@
                :width="w"
                :class="rootClass + '__img'">
 
+          <span :class="rootClass + '__selected-badge badge badge-success'" v-if="isSelected(dataImage.id)">{{selectedLabel}}</span>
+
           <label v-if="useLabel"
                 :class="rootClass + '__lbl'">
                 {{dataImage.alt}}
@@ -62,6 +64,10 @@ export default {
     useLabel: {
       type: Boolean,
       default: false
+    },
+    selectedLabel: {
+      type: String,
+      default: 'SELECTED'
     },
     rootClass: {
       type: String,
@@ -120,6 +126,9 @@ export default {
         return `${baseMultipleClass} ${baseClass}${this.activeClass}`
       }
       return `${baseMultipleClass}`
+    },
+    isSelected(id) {
+      return this.isExistInArray(id);
     },
     onSelectImage(objectImage) {
       this.singleSelected = Object.assign({}, this.singleSelected, objectImage)
