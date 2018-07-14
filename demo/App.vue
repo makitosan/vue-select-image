@@ -50,6 +50,8 @@
         <h2>Multiple Selection</h2>
         <vue-select-image :dataImages="dataImages"
                           :is-multiple="true"
+                          w="200"
+                          h="200"
                           @onselectmultipleimage="onSelectMultipleImage"
                           :selectedImages="initialSelected">
         </vue-select-image>

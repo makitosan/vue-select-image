@@ -28,7 +28,7 @@ export default {
       imageMultipleSelected: [],
       dataImages: [{
         id: '1',
-        src: 'http://placekitten.com/200/200',
+        src: 'https://s3-ap-northeast-1.amazonaws.com/prod-hair/photographs/zoom/89/891bb8228fbd6.jpg',
         alt: 'jQuery'
       }, {
         id: '2',
